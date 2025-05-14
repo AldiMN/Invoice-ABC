@@ -7,7 +7,7 @@ function Navbar() {
     const [darkMode, setDarkMode] = useState(false);
     const [selectedLanguage, setSelectedLanguage] = useState('en');
     const [showLanguageMenu, setShowLanguageMenu] = useState(false);
-    const [isLoggedIn, setIsLoggedIn] = useState(false);
+    const [isLoggedIn, setIsLoggedIn] = useState(false); // Tambah state login
     const navigate = useNavigate(); 
 
     useEffect(() => {
